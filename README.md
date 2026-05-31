@@ -1,3 +1,4 @@
+## Week 1
 # Data Exploration and Cleaning using Pandas
 
 This project demonstrates the basic use of Python Pandas for performing data exploration, cleaning, and preprocessing operations on a shopping dataset.
@@ -26,3 +27,21 @@ Discounts
 Seller information
 Product specifications
 Category details
+
+## Week 2
+- E-Commerce Sales Database
+
+Topics Covered:
+- SQL Basics
+- Constraints
+- WHERE Clause
+- GROUP BY
+- Aggregation
+- JOINs
+- CASE Statements
+- ACID Properties
+- Transactions
+
+Tools Used:
+- MySQL Workbench 8.0 CE
+Files: Result Set(Week2).pdf
