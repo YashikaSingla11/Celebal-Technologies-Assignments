@@ -31,7 +31,7 @@ Category details
 ## Week 2
 - E-Commerce Sales Database
 
-Topics Covered:
+# Topics Covered:
 - SQL Basics
 - Constraints
 - WHERE Clause
@@ -42,9 +42,13 @@ Topics Covered:
 - ACID Properties
 - Transactions
 
-Tools Used:
+# Tools Used:
 - MySQL Workbench 8.0 CE
+
+# Dataset Name: Sample-Superstore.csv
   
-Files:-
+# Files:-
 - Result Set(Week2).pdf
 - Week2_SQL_Queries.sql
+- Week2_SQL_Script(LMS).sql
+- RESULT SET(LMS) SQL=QUERRIES.pdf
