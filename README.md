@@ -51,4 +51,4 @@ Category details
 - Result Set(Week2).pdf
 - Week2_SQL_Queries.sql
 - Week2_SQL_Script(LMS).sql
-- RESULT SET(LMS) SQL=QUERRIES.pdf
+- RESULT SET(LMS) SQL-QUERRIES.pdf
