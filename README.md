@@ -44,4 +44,7 @@ Topics Covered:
 
 Tools Used:
 - MySQL Workbench 8.0 CE
-Files: Result Set(Week2).pdf
+  
+Files:-
+- Result Set(Week2).pdf
+- Week2_SQL_Queries.sql
