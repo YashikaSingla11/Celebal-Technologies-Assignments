@@ -104,3 +104,46 @@ Dataset Name: Sample - Superstore.csv
 - Row Number Assignment within Customer Orders
 - Top 3 Customers by Sales
 - Customer Sales Ranking using CTE and Window Functions
+
+## Week 4
+# Azure Cloud Fundamentals and Data Pipeline using Azure Data Factory
+
+This project demonstrates the implementation of an end-to-end data pipeline using Azure Storage Account and Azure Data Factory (ADF).
+
+# Objective
+
+- Explore Azure Portal and create cloud resources
+- Configure Azure Storage Account and Blob Container
+- Upload and manage CSV files in Blob Storage
+- Create and configure Azure Data Factory
+- Build and execute data pipelines
+- Validate file metadata using Get Metadata activity
+- Manage access using IAM roles
+
+# Tools Used
+
+- Microsoft Azure Portal
+- Azure Storage Account
+- Azure Blob Storage
+- Azure Data Factory (ADF)
+
+# Key Tasks Performed
+
+- Created Resource Group
+- Created Storage Account and Blob Container
+- Uploaded CSV file to Blob Storage
+- Configured Linked Service and Datasets
+- Implemented Get Metadata Activity
+- Developed Pipeline using Copy Data Activity
+- Executed and monitored pipeline
+- Assigned IAM roles (Reader & Contributor)
+
+# Mini Project
+
+Built a complete pipeline to read a CSV file from Azure Blob Storage, validate metadata, and copy data to a new destination using Azure Data Factory.
+
+# Outcome
+
+- Successful pipeline execution
+- Data copied to destination location
+- Metadata validation completed
