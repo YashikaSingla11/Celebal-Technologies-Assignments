@@ -147,3 +147,153 @@ Built a complete pipeline to read a CSV file from Azure Blob Storage, validate m
 - Successful pipeline execution
 - Data copied to destination location
 - Metadata validation completed
+  
+## Week 5
+Apache Spark Data Processing using DataFrames and Transformations
+
+This project demonstrates the use of Apache Spark DataFrames for performing data processing, transformations, filtering, schema handling, and optimized file operations.
+
+# Objective
+
+The objective of this assignment is to:
+
+- Understand Apache Spark architecture and execution modes
+- Learn Lazy Evaluation and DAG optimization
+- Read data from CSV and Parquet files
+- Apply DataFrame transformations and actions
+- Perform filtering and selection operations
+- Handle null values and data type conversions
+- Rename and modify DataFrame schemas
+- Perform wide transformations and shuffle operations
+- Optimize data processing using Spark best practices
+
+# Topics Covered
+- Spark Architecture
+- Driver, Executors and Cluster Manager
+- Lazy Evaluation
+- DAG (Directed Acyclic Graph)
+- DataFrames
+- Transformations and Actions
+- Filtering and Selection
+- Schema Handling
+- Null Value Handling
+- Wide Transformations
+- Shuffle Operations
+- CSV and Parquet File Processing
+
+# Tools Used
+- Apache Spark
+- PySpark
+- Google Colab
+
+# Key Tasks Performed
+- Loaded CSV and Parquet datasets
+- Applied filtering and selection operations
+- Modified schemas and renamed columns
+- Performed data transformations
+- Handled missing values
+- Executed wide transformations
+- Optimized Spark execution using lazy evaluation
+- Stored processed data in optimized formats
+
+# Outcome
+Successfully implemented Spark DataFrame transformations and optimized data processing workflows.
+
+## Week 6
+Spark Data Aggregation and Performance Optimization
+
+This project demonstrates advanced data processing using Apache Spark by performing data cleaning, transformations, aggregations, grouping operations, and performance optimization.
+
+# Objective
+The objective of this assignment is to:
+- Understand Spark DataFrame operations
+- Perform data cleaning and preprocessing
+- Handle null values and duplicate records
+- Apply filtering conditions
+- Perform aggregations and grouping
+- Understand shuffle operations
+- Modify schemas and perform data transformations
+- Build optimized Spark pipelines
+
+# Topics Covered
+- Spark DataFrames
+- Data Cleaning
+- Duplicate Removal
+- Null Value Handling
+- Filtering
+- Group By Operations
+- Aggregations
+- Data Transformations
+- Wide and Narrow Transformations
+- Shuffle Operations
+- Schema Modification
+- Performance Optimization
+
+# Tools Used
+- Apache Spark
+- PySpark
+- Google Colab
+
+# Key Tasks Performed
+Loaded datasets into Spark DataFrames
+Removed duplicates and null values
+Applied filtering conditions
+Performed group by and aggregation operations
+Used aggregate functions (count, sum, avg, min, max)
+Modified DataFrame schemas
+Applied transformations and actions
+Built optimized Spark pipelines
+
+# Outcome
+Successfully implemented Spark-based data cleaning, transformation, and aggregation workflows.
+
+## Week 7
+Delta Lake MERGE Implementation for Incremental Data Processing
+
+This project demonstrates incremental data processing using Delta Lake and MERGE operations for updating and inserting customer records.
+
+# Objective
+The objective of this assignment is to:
+- Understand Delta Lake architecture and capabilities
+- Load customer data into Delta tables
+- Perform data cleaning operations
+- Create incremental datasets
+- Apply Delta Lake MERGE operations
+- Update existing records
+- Insert new records
+- Validate final output datasets
+
+# Topics Covered
+- Delta Lake
+- Delta Tables
+- Incremental Processing
+- MERGE Operations
+- SCD Type 1
+- Data Cleaning
+- Duplicate Removal
+- Null Value Handling
+- Data Validation
+- Data Quality Checks
+
+# Tools Used
+Databricks
+Apache Spark
+PySpark
+Delta Lake
+Dataset Used
+customer_master.csv
+customer_incremental.csv
+
+# Key Tasks Performed
+Created customer master dataset
+Removed null values and duplicate records
+Created Delta tables
+Generated incremental customer dataset
+Applied Delta Lake MERGE operation
+Updated existing customer records
+Inserted new customer records
+Performed validation checks
+Generated final business-ready dataset
+
+# Outcome
+Successfully implemented Delta Lake MERGE operation for incremental data processing using SCD Type 1 methodology.
