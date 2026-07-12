@@ -1,176 +1,3 @@
-<<<<<<< HEAD
-# E-Commerce Analytics System
-
-## Project Overview
-
-This project is an end-to-end E-Commerce Order Analytics System developed using **Python, Pandas, SQLite, and SQL**. It generates realistic e-commerce datasets, cleans and validates the data, stores it in a SQL database, performs business analytics using SQL queries, and provides reports through a Python Command Line Interface (CLI).
-
----
-
-## Objectives
-
-- Generate realistic e-commerce datasets
-- Clean and validate data using Pandas
-- Load cleaned data into SQLite
-- Perform SQL analytics using Joins, Aggregations, Window Functions, and CTEs
-- Analyze customer retention and segmentation
-- Build a CLI reporting tool
-- Handle edge cases and invalid inputs
-
----
-
-## Technologies Used
-
-- Python
-- Pandas
-- Faker
-- NumPy
-- SQLite
-- SQL
-- argparse
-
----
-
-## Project Structure
-
-```
-ecommerce-analytics-system/
-│
-├── data/
-│   ├── raw/
-│   └── cleaned/
-│
-├── notebooks/
-│   ├── Project.ipynb
-│   ├── 02_clean_data.ipynb
-│   ├── 03_SQL_Database.ipynb
-│   └── 04_SQL_Analysis.ipynb
-│
-├── scripts/
-│   └── report_cli.py
-│
-├── sql/
-│   ├── schema.sql
-│   ├── aggregations.sql
-│   ├── window_functions.sql
-│   └── cohort_analysis.sql
-│
-├── output/
-│   └── sample_reports/
-│
-├── ecommerce.db
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 📊 Project Workflow
-
-### Step 1
-Generate realistic datasets using Faker.
-
-### Step 2
-Clean data using Pandas.
-
-### Step 3
-Load cleaned data into SQLite.
-
-### Step 4
-Perform SQL analytics using Joins and Aggregations.
-
-### Step 5
-Use Window Functions and CTEs.
-
-### Step 6
-Perform Cohort Analysis.
-
-### Step 7
-Customer Segmentation using RFM concepts.
-
-### Step 8
-Generate reports using CLI.
-
----
-
-## Reports
-
-The project generates:
-
-- Total Revenue
-- Revenue by Customer
-- Revenue by Category
-- Monthly Revenue
-- Top Products
-- Top Customers
-- Average Order Value
-- Customer Ranking
-- Running Revenue
-- Moving Average Revenue
-- Cohort Analysis
-- Customer Segmentation
-
----
-
-##  Run the Project
-
-### Install Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run CLI
-
-```bash
-cd scripts
-```
-
-Revenue Report
-
-```bash
-python report_cli.py --report revenue
-```
-
-Top Customers
-
-```bash
-python report_cli.py --report top_customers
-```
-
-Top Products
-
-```bash
-python report_cli.py --report top_products
-```
-
-Monthly Revenue
-
-```bash
-python report_cli.py --report monthly_revenue
-```
-
----
-
-## Sample Output
-
-Store screenshots inside:
-
-```
-output/sample_reports/
-```
-
----
-
-
-##  Future Improvements
-
-- Interactive Dashboard using Power BI
-- Streamlit Web App
-- MySQL/PostgreSQL Support
-- Data Visualization
-- Automated ETL Pipeline
-=======
 ## Week 1
 # Data Exploration and Cleaning using Pandas
 
@@ -470,4 +297,70 @@ Generated final business-ready dataset
 
 # Outcome
 Successfully implemented Delta Lake MERGE operation for incremental data processing using SCD Type 1 methodology.
->>>>>>> ab73913051b49da3bbf6739f6f6239b3d1117f0e
+
+## Week 8
+# E-Commerce Analytics System
+
+This project demonstrates an end-to-end E-Commerce Analytics System using Python, Pandas, SQLite, and SQL. The project covers realistic dataset generation, data cleaning, database creation, SQL analytics, customer segmentation, cohort analysis, and report generation through a Command Line Interface (CLI).
+
+# Objective
+
+The objective of this assignment is to:
+
+- Generate realistic e-commerce datasets using Python
+- Clean and validate datasets using Pandas
+- Load cleaned data into SQLite database
+- Perform SQL analytics using JOINs and Aggregations
+- Apply Window Functions and Common Table Expressions (CTEs)
+- Perform Cohort Analysis and Customer Segmentation
+- Build a Command Line Interface (CLI) reporting tool
+- Handle edge cases and validate user inputs
+
+# Topics Covered
+
+- Python
+- Pandas
+- Faker
+- SQLite
+- SQL
+- Data Cleaning
+- Data Validation
+- SQL JOINs
+- Aggregations
+- Window Functions
+- CTEs
+- Cohort Analysis
+- Customer Segmentation (RFM)
+- CLI Reporting Tool
+
+# Tools Used
+
+- Python
+- Pandas
+- Faker
+- SQLite
+- Jupyter Notebook
+- VS Code
+- Git
+- GitHub
+
+# Dataset Used
+
+Generated using Python (Faker Library)
+
+# Key Tasks Performed
+
+- Generated realistic customer, product, order, and order item datasets
+- Introduced missing values, duplicates, and invalid records
+- Cleaned and validated datasets using Pandas
+- Loaded cleaned datasets into SQLite
+- Created SQL schema with primary and foreign keys
+- Performed revenue, customer, product, and monthly sales analysis
+- Applied Window Functions and CTEs
+- Performed Cohort Analysis and RFM-based Customer Segmentation
+- Built a CLI tool for dynamic report generation
+- Generated sample reports and documented the project
+
+# Outcome
+
+Successfully developed an end-to-end E-Commerce Analytics System that demonstrates data generation, data cleaning, SQL analytics, customer segmentation, business reporting, and database management using Python and SQL.
